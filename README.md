@@ -19,7 +19,7 @@ The script exits with the following error codes to indicate different states or 
 - `16`: Device on which the filesystem is mounted is set to read-only.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the terms of the GNU General Public License v3.0.
 
 ## Contributing
 Contributions are welcome. Please feel free to fork the repository and submit pull requests.
