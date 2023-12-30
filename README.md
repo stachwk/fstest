@@ -1,7 +1,7 @@
-# FSTest
+# fstest
 
 ## Overview
-FSTest is a bash script designed to check the status of a filesystem. It is a useful tool for system administrators and developers who need to verify the state of a filesystem quickly and efficiently. This script can determine if a filesystem is mounted, if it is writable, and if it is set to read-only mode.
+fstest is a bash script designed to check the status of a filesystem. It is a useful tool for system administrators and developers who need to verify the state of a filesystem quickly and efficiently. This script can determine if a filesystem is mounted, if it is writable, and if it is set to read-only mode.
 
 ## Features
 - **Mount Check**: Verifies if the specified filesystem is mounted.
@@ -32,6 +32,6 @@ Special thanks to everyone who contributes to this project and provides feedback
 
 
 ## Usage
-To use FSTest, simply run the script with the path to the filesystem as the argument. For example:
+To use fstest, simply run the script with the path to the filesystem as the argument. For example:
 ```bash
 sudo ./fstest.sh /mnt/myfilesystem
