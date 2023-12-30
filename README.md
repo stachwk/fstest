@@ -18,11 +18,6 @@ The script exits with the following error codes to indicate different states or 
 - `8`: Filesystem is read-only.
 - `16`: Device on which the filesystem is mounted is set to read-only.
 
-## Usage
-To use FSTest, simply run the script with the path to the filesystem as the argument. For example:
-```bash
-sudo ./fstest.sh /mnt/myfilesystem
-
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
@@ -36,3 +31,7 @@ Special thanks to everyone who contributes to this project and provides feedback
 - **Error Reporting**: Provides clear and concise error reporting, indicating whether the filesystem is not mounted, is set to read-only, or is not writable. The script exits with distinct error codes for each condition.
 
 
+## Usage
+To use FSTest, simply run the script with the path to the filesystem as the argument. For example:
+```bash
+sudo ./fstest.sh /mnt/myfilesystem
