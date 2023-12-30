@@ -23,13 +23,13 @@ To use FSTest, simply run the script with the path to the filesystem as the argu
 ```bash
 sudo ./fstest.sh /mnt/myfilesystem
 
-### License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Contributing
+## Contributing
 Contributions are welcome. Please feel free to fork the repository and submit pull requests.
 
-### Acknowledgments
+## Acknowledgments
 Special thanks to everyone who contributes to this project and provides feedback.ed.
 - **Writability Check**: Checks if the filesystem is writable by attempting to create a test file.
 - **Read-Only Check**: Determines if the filesystem or the device on which it is mounted is set to read-only mode. This is useful for identifying issues where a filesystem may unexpectedly be in a read-only state.
