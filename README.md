@@ -10,7 +10,7 @@ fstest is a bash script designed to check the status of a filesystem. It is a us
 - **Error Reporting**: Provides clear and concise error reporting, indicating whether the filesystem is not mounted, is set to read-only, or is not writable. The script exits with distinct error codes for each condition.
 
 ## Error Codes
-The script exits with the following sums of error codes to indicate different states or issues:
+The script terminates with messages and accumulates error codes by adding specific values, to indicate various states or issues:
 - `0`: No error, filesystem is mounted and writable.
 - `1`: Required tool(s) for the script are not installed.
 - `2`: Filesystem is not mounted.
