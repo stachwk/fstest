@@ -1,5 +1,9 @@
 #!/bin/bash
 # fstest.sh - Script to check if a filesystem is mounted, writable, and not read-only
+# This file is part of fstest.
+# autor stachwk
+# fstest is licensed under the GNU General Public License v3.0.
+# To view a copy of this license, visit: https://www.gnu.org/licenses/gpl-3.0.html
 
 # Function to check if required tools are available
 check_required_tools() {
